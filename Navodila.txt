@@ -2,3 +2,9 @@
 2. odpremo brskalnik
 3. napišemo "localhost:8000" v URL link (na vrhu strani) in pritisnemo ENTER tipko na tipkovnici
 4. Pritisnemo PLAY ob uspešnem zagonu.
+
+ENGLISH
+1. start the python server script (has to be run from the path)
+2. open the browser
+3. write localhost:8000 in URL
+4. play
