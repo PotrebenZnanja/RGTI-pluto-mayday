@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pluto Mayday!</title>
+
+    <link rel="stylesheet" type="text/css" href="common/style.css">
+	<link rel="icon" href="data:,">
+
+    <script type="text/javascript" src="lib/gl-matrix-min.js"></script>
+    <script type="text/javascript" src="lib/dat.gui.min.js"></script>
+    <script type="module" src="game/game.js"></script>
+</head>
+<body>
+	<div id = "instruction">
+		<keys>W</keys>
+		<keys>A</keys>
+		<keys>S</keys>
+		<keys>D</keys>  - Move</br>
+		<keys>Space</keys>  - Jump </br>
+		<keys>Shift</keys>  - Sprint</br>
+		<keys>Q</keys>  - place Turret
+		
+	</div>
+	
+	<div id= "overlay-start">
+		<div class="wtftodo">Protect your rocketship from aliens,</br>place turrets to destroy enemies,</br>survive for a minute!</div>
+		<div class = "play">PLAY</div>
+	</div>
+	
+	<div id="gameVars">
+	</div>
+	
+	<div id = "loss">
+		</br>
+		Defeat!</br> Aliens have destroyed your ship!
+		</br> You are now stranded on </br>
+		<div class = "pluto">Pluto</div>
+		</br>
+		Thank you for playing!
+	</div>
+	
+	<div id = "vic">
+		</br>
+		</br>
+		Congratulations!</br> You have successfully escaped </br> 
+		<div class = "pluto">Pluto</div>
+		</br>
+		Thank you for playing!
+	</div>
+	
+	
+
+	
+    <div class="fullscreen">
+        <canvas></canvas>
+    </div>
+</body>
+</html>

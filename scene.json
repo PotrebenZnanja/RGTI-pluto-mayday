@@ -1,0 +1,247 @@
+{
+  "nodes": [
+    { 
+      "type": "camera",
+      "translation": [4, 0.7, 4],
+      "aabb": {
+        "min": [-0.2, -0.2, -0.2],
+        "max": [0.2, 0.2, 0.2]
+      },
+      "aspect": 1,
+      "fov": 1.5,
+      "near": 0.01,
+      "far": 300,
+      "COMMENT": "camera"
+    },
+    { 
+      "type": "model",
+      "mesh": 3,
+      "texture": 7,
+      "aabb": {
+        "min": [0, 0, 0],
+        "max": [0, 0, 0]
+      },
+      "translation": [0,0,0],
+      "scale": [-200, -100, -200],
+      "COMMENT" : "NIGHT SKY"
+    },
+    { 
+      "type": "model",
+      "mesh": 3,
+      "texture": 6,
+      "aabb": {
+        "min": [0, 0, 0],
+        "max": [0, 0, 0]
+      },
+      "translation": [0, -4, 0],
+      "scale": [100, 5, 100],
+      "COMMENT": "nek prop"
+    },
+    { 
+      "type": "model",
+      "mesh": 3,
+      "texture": 3,
+      "aabb": {
+        "min": [0, 0, 0],
+        "max": [0, 0, 0]
+      },
+      "translation": [90, 6, 90],
+      "scale": [3, 3, 3],
+      "COMMENT": "nek prop"
+    },
+    { 
+      "type": "model",
+      "mesh": 4,
+      "texture": 2,
+      "aabb": {
+        "min": [0, 0, 0],
+        "max": [0, 0, 0]
+      },
+      "translation": [-4.55, -3, 3],
+      "scale": [2, 2, 2],
+      "rotation": [-1.40, 0.3, 0],
+      "COMMENT" : "RAKETA"
+    },
+
+    { 
+      "type": "model",
+      "mesh": 7,
+      "texture": 1,
+      "aabb": {
+        "min": [-100, -5, -1],
+        "max": [100, 5, 1]
+      },
+      "translation": [0, 0, 50],
+      "scale": [100, 5, 1],
+      "COMMENT": "zid"
+    },
+	    { 
+      "type": "model",
+      "mesh": 7,
+      "texture": 1,
+      "aabb": {
+        "min": [-100, -5, -1],
+        "max": [100, 5, 1]
+      },
+      "translation": [0, 0, -50],
+      "scale": [100, 5, 1],
+      "COMMENT": "zid"
+    },
+	    { 
+      "type": "model",
+      "mesh": 7,
+      "texture": 1,
+      "aabb": {
+        "min": [-1, -5, -100],
+        "max": [1, 5, 100]
+      },
+      "translation": [50, 0, 0],
+      "scale": [1, 5, 100],
+      "COMMENT": "zid"
+    },
+	    { 
+      "type": "model",
+      "mesh": 7,
+      "texture": 1,
+      "aabb": {
+        "min": [-1, -5, -100],
+        "max": [1, 5, 100]
+      },
+      "translation": [-50, 0, 0],
+      "scale": [1, 5, 100],
+      "COMMENT": "zid"
+    },
+	
+    { 
+      "id": "scuffed_center",
+      "type": "model",
+      "mesh": 7,
+      "texture": 1,
+      "aabb": {
+        "min": [-1.2, -10, -1.2],
+        "max": [1.2, 10, 1.2]
+      },
+      "translation": [0, 0, 0],
+      "scale": [1.2, 10, 1.2],
+      "COMMENT": "CENTER HITBOX (od rakete)"
+    },
+	
+    { 
+      "number": 0,
+      "id": "enemy",
+      "type": "model",
+      "mesh": 9,
+      "texture": 8,
+      "aabb": {
+        "min": [-0.5, -0.35, -0.5],
+        "max": [0.5, 2, 0.5]
+      },
+      "translation": [0, -1, 0],
+      "scale": [0.5, 0.35, 0.5],
+      "rotation": [0, 0, 0],
+      "COMMENT": "sovraznik"
+    },
+		
+    { 
+      "type": "model",
+      "mesh": 3,
+      "texture": 8,
+      "aabb": {
+        "min": [-1.2, -2, -1.2],
+        "max": [1.2, 2, 1.2]
+      },
+      "translation": [80, 30, 40],
+      "scale": [0.5, 0.5, 0.5],
+      "COMMENT": "saturn al neki lmao"
+    },
+    { 
+      "type": "model",
+      "mesh": 3,
+      "texture": 1,
+      "aabb": {
+        "min": [-0.5, -0.35, -0.5],
+        "max": [0.5, 2, 0.5]
+      },
+      "translation": [-40, 9,  130],
+      "rotation": [0, 0, 0],
+      "scale": [1, 1, 1],
+      "COMMENT": "se en random planet"
+    },
+    { 
+      "type": "model",
+      "mesh": 3,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.5, -0.35, -0.5],
+        "max": [0.5, 2, 0.5]
+      },
+      "translation": [0, 60,  70],
+      "rotation": [0, 0, 0],
+      "scale": [0.2, 0.1, 0.2],
+      "COMMENT": "se en random planet"
+    },
+    { 
+      "id": "turret",
+      "type": "model",
+      "target": null,
+      "fired": null,
+      "number": -1,
+      "mesh": 10,
+      "texture": 9,
+      "aabb": {
+        "min": [-0.7, 0, -0.7],
+        "max": [0.7, 5, 0.7]
+      },
+      "translation": [0, -10, 0],
+      "rotation": [0, -1, 0],
+      "scale": [0.001, 0.001, 0.001],
+      "COMMENT": "turret"
+    },
+    { 
+      "id": "bullet",
+      "type": "model",
+      "currently": "dead",
+      "owner": null,
+      "mesh": 11,
+      "texture": 2,
+      "aabb": {
+        "min": [0, 0, 0],
+        "max": [0, 0, 0]
+      },
+      "translation": [0, -10, 0],
+      "rotation": [0,0, 0],
+      "scale": [0.3, 0.3, 0.3],
+      "COMMENT": "bullet"
+    }
+  ],
+  "textures": [
+    "../../common/images/deprecated-1.png",
+    "../../common/images/deprecated-2.png",
+    "../../common/images/techno.png",
+    "../../common/images/sun.png",
+    "../../common/images/black.png",
+	
+    "../../common/images/sky2.png",
+    "../../common/images/mars.png",
+    "../../common/images/sky3.png",
+    "../../common/images/doppler.png",
+    "../../common/images/metalDark.jpg"
+	
+  ],
+  "meshes": [
+    "../../common/models/cube.json",
+    "../../common/models/pyramid.json",
+    "../../common/models/planecirc2.json",
+    "../../common/models/ball.json",
+    "../../common/models/rocket.json",
+	
+    "../../common/models/testSphere.json",
+    "../../common/models/planeTest.json",
+    "../../common/models/scuffedcube.json",
+    "../../common/models/newCube.json",
+    "../../common/models/anime2.json",
+	
+    "../../common/models/tower.json",
+	"../../common/models/bullet.json"
+  ]
+}

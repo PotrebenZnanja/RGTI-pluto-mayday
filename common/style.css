@@ -1,0 +1,184 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+.fullscreen {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.fullscreen > * {
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+}
+
+a.back {
+    display: block;
+    padding: 5px 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+a.back:hover {
+    background: #ddd;
+}
+
+#instruction {
+	position: fixed;
+	top: 1%;
+	left :1%;
+	width: 200px;
+	height: 200 px;
+	color:#BB90FF;
+	z-index:2;
+}
+
+.wtftodo{
+    width: 100%;
+    height: 40%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    color: #ffffff;
+    text-align: center;
+	font-size: 80px;
+	font-family:  Chalkduster, sans-serif;
+    cursor: pointer;
+}
+
+#overlay-start {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+    display: block;
+}
+
+.play{
+    position: absolute;
+    right: 20%;
+    bottom: 20%;
+	-webkit-text-stroke: 10px #7869BB;
+    font-family: Chalkduster, sans-serif;
+    font-size: 200px;
+    color: #EECCff;
+	border: 10px solid #7869BB;
+
+	border-radius: 70px;
+	padding: 20px;
+}
+
+.play:hover{
+color: white;
+border: 10px solid white;
+cursor:pointer;
+}
+
+.pluto{
+
+    font-family: Chalkduster, sans-serif;
+    font-size: 200px;
+    color: #EECCff;
+	-webkit-text-stroke: 10px #7869BB;
+}
+
+keys {
+    background-color: #eee;
+    border-radius: 3px;
+    border: 1px solid #b4b4b4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+    color: #333;
+    display: inline-block;
+    font-size: .85em;
+    font-weight: 700;
+    line-height: 1;
+    padding: 2px 4px;
+	margin-bottom:2px;
+    white-space: nowrap;
+	
+}
+
+#loss{
+
+	    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    text-align: center;
+	font-size: 80px;
+	
+	width:100%;
+	height:100%;
+	background-color: #a11a35;
+	color: #EECCff;
+	position: absolute;
+	z-index:4;
+	display: none;
+}
+
+#vic{
+	    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    text-align: center;
+	font-size: 80px;
+
+	background-color: #3791a1;
+	width:100%;
+	height:100%;
+	color: #EECCff;
+	position: absolute;
+	z-index:3;
+	display: none;
+}
+
+#gameVars{
+	position: fixed;
+	top: 10%;
+	left :1%;
+	width: 400px;
+	height: 200 px;
+	font-size: 40px;
+	color:#BB90FF;
+	font-family: Chalkduster, sans-serif;
+	z-index:2;
+}

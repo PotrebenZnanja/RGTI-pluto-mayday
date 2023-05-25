@@ -1,0 +1,4 @@
+1. Poženemo priloženo python server skripto 
+2. odpremo brskalnik
+3. napišemo "localhost:8000" v URL link (na vrhu strani) in pritisnemo ENTER tipko na tipkovnici
+4. Pritisnemo PLAY ob uspešnem zagonu.
